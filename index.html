@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080808">
+    <title>M7 Store — Termos da Loja</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="snow-canvas" class="snow-canvas"></canvas>
+    <div class="noise"></div>
+    <div class="red-glow red-glow-1"></div>
+    <div class="red-glow red-glow-2"></div>
+
+    <!-- HEADER -->
+    <header class="navbar">
+        <a href="#" class="brand">
+            <span class="brand-red">M7</span>
+            <span>STORE</span>
+        </a>
+
+        <div class="nav-divider"></div>
+
+        <nav class="nav-links">
+            <a href="#regras" class="active">PRODUTOS</a>
+            <a href="#entrega">ENTREGA</a>
+            <a href="#reembolso">REEMBOLSO</a>
+            <a href="#suporte">SUPORTE</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="https://discord.com/" target="_blank" class="btn btn-discord">
+                <span class="discord-icon">●</span>
+                Discord
+            </a>
+            <a href="#regras" class="btn btn-primary">ENTRAR NA LOJA</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="inicio">
+            <div class="hero-background"></div>
+
+            <div class="hero-content">
+                <div class="eyebrow">
+                    <span></span>
+                    DOCUMENTAÇÃO OFICIAL · M7 STORE
+                    <span></span>
+                </div>
+
+                <div class="warning-icon">△</div>
+
+                <h1>
+                    LEIA COM
+                    <strong>ATENÇÃO</strong>
+                </h1>
+
+                <p>
+                    Antes de realizar sua compra, confira todos os termos e condições
+                    para garantir uma experiência segura e transparente.
+                </p>
+
+                <a href="#regras" class="scroll-link">
+                    VER TERMOS
+                    <span>↓</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- RULES -->
+        <section class="rules-section" id="regras">
+            <div class="section-heading">
+                <h2>Regras da loja</h2>
+                <p>Segure e arraste para navegar entre as seções</p>
+            </div>
+
+            <div class="rules-grid">
+
+                <article class="rule-card" id="entrega">
+                    <div class="card-top">
+                        <span class="card-number">01 — ENTREGA</span>
+                        <div class="card-icon">▣</div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3>Processo de entrega</h3>
+
+                        <div class="rule">
+                            <span>A</span>
+                            <p>
+                                Após a <b>confirmação do pagamento</b>, seu produto será
+                                entregue automaticamente pelo sistema ou manualmente pela nossa equipe.
+                            </p>
+                        </div>
+
+                        <div class="rule">
+                            <span>B</span>
+                            <p>
+                                <b>Garantimos a entrega</b> conforme o combinado no momento
+                                da compra, dentro do prazo estipulado.
+                            </p>
+                        </div>
+
+                        <div class="rule">
+                            <span>C</span>
+                            <p>
+                                Problemas relacionados à entrega devem ser
+                                <b>informados imediatamente</b> via suporte.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">● GUARDE O COMPROVANTE DE PAGAMENTO</div>
+                </article>
+
+                <article class="rule-card">
+                    <div class="card-top">
+                        <span class="card-number">02 — PÓS-ENTREGA</span>
+                        <div class="card-icon">◷</div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3>Responsabilidade<br>pós-entrega</h3>
+
+                        <div class="rule">
+                            <span>A</span>
+                            <p>
+                                Após o recebimento confirmado do produto, ele
+                                <b>não estará mais sob nossa responsabilidade</b>
+                                ou cobertura de suporte técnico.
+                            </p>
+                        </div>
+
+                        <div class="rule">
+                            <span>B</span>
+                            <p>
+                                Qualquer <b>utilização, configuração ou ação</b>
+                                realizada com o produto será de responsabilidade
+                                exclusiva do cliente.
+                            </p>
+                        </div>
+
+                        <div class="rule">
+                            <span>C</span>
+                            <p>
+                                Recomendamos que o cliente <b>teste o produto imediatamente</b>
+                                após receber e reporte qualquer irregularidade.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">● TESTE LOGO APÓS RECEBER</div>
+                </article>
+
+                <article class="rule-card" id="reembolso">
+                    <div class="card-top">
+                        <span class="card-number">03 — REEMBOLSO</span>
+                        <div class="card-icon">▤</div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3>Política de reembolso</h3>
+
+                        <div class="rule">
+                            <span>A</span>
+                            <p>
+                                Os produtos adquiridos em nossa loja
+                                <b>não possuem reembolso</b> após a conclusão da compra.
+                            </p>
+                        </div>
+
+                        <div class="rule">
+                            <span>B</span>
+                            <p>
+                                Após pagamento e entrega confirmados,
+                                <b>não realizamos devolução de valores</b>
+                                por arrependimento ou desistência.
+                            </p>
+                        </div>
+
+                        <div class="rule">
+                            <span>C</span>
+                            <p>
+                                Nossa equipe oferece <b>suporte completo</b>
+                                para auxiliar na utilização correta do produto adquirido.
+                            </p>
+                        </div>
+
+                        <div class="rule">
+                            <span>D</span>
+                            <p>
+                                <b>Erros causados pelo usuário</b> não geram direito
+                                a reembolso, substituição ou compensação.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">● SEM REEMBOLSO APÓS A ENTREGA</div>
+                </article>
+
+                <article class="rule-card">
+                    <div class="card-top">
+                        <span class="card-number">04 — ACEITAÇÃO</span>
+                        <div class="card-icon">✓</div>
+                    </div>
+
+                    <div class="card-body">
+                        <h3>Aceitação<br>dos termos</h3>
+
+                        <div class="rule">
+                            <span>A</span>
+                            <p>
+                                Ao realizar uma compra em nosso servidor ou diretamente
+                                com um responsável, você confirma que <b>leu e concorda</b>
+                                com todas as regras apresentadas.
+                            </p>
+                        </div>
+
+                        <div class="rule">
+                            <span>B</span>
+                            <p>
+                                A <b>compra representa sua aceitação automática</b> e
+                                integral destes termos, sem exceções ou ressalvas.
+                            </p>
+                        </div>
+
+                        <div class="rule">
+                            <span>C</span>
+                            <p>
+                                Alegações de desconhecimento das regras
+                                <b>não serão aceitas</b> como justificativa após a conclusão da compra.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">● COMPRAR = ACEITAR OS TERMOS</div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- FOOTER CTA -->
+        <section class="footer-cta" id="suporte">
+            <div class="footer-line"></div>
+
+            <div class="footer-content">
+                <div class="eyebrow">
+                    <span></span>
+                    DOCUMENTAÇÃO OFICIAL · 2026
+                    <span></span>
+                </div>
+
+                <h2>
+                    Obrigado por escolher
+                    <strong>a M7 Store</strong>
+                </h2>
+
+                <p>
+                    Ao prosseguir com sua compra, você confirma que leu e
+                    compreendeu integralmente os termos acima.
+                </p>
+
+                <div class="footer-buttons">
+                    <a href="#" class="btn btn-light">← &nbsp; VOLTAR PARA LOJA</a>
+                    <a href="https://discord.gg/2JC6rARMHN" target="_blank" class="btn btn-discord">
+                        ● &nbsp; ENTRAR NO DISCORD
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <strong>M7 STORE</strong>
+                <span>29/08/2026</span>
+            </div>
+        </section>
+    </main>
+
+    <a href="https://discord.gg/2JC6rARMHN" target="_blank" class="discord-float" aria-label="Discord">
+        ●
+    </a>
+
+    <script src="snow.js"></script>
+</body>
+</html>
